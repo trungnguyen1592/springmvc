@@ -1,0 +1,132 @@
+body #maincontent .columns.category {
+	border-top: 1px solid #eee;
+    padding-top: 5px;
+    display: block;
+}
+
+body #maincontent .columns.category .sidebar-main {
+    width: 16.936%;
+    padding-right: 0;
+    float: left;
+}
+body #maincontent .columns.category .sidebar-main .block.filter {
+	margin-top: 13px;
+}
+body #maincontent .columns.category .sidebar-main .filter-options-item .filter-options-title {
+	padding-top: 0;
+	font: 700 12px/12px 'GothamBold','Arial',sans-serif;
+    color: #222;
+    letter-spacing: 1px;
+    padding-left: 0;
+    display: block;
+    text-transform: uppercase;
+}
+body #maincontent .columns.category .sidebar-main .filter-options-item .filter-options-content {
+	margin: 0;
+	padding: 10px;
+	padding-left: 0;
+    padding-top: 15px;
+}
+body #maincontent .columns.category .sidebar-main .filter-options-item .filter-options-content .items {
+	margin: 0;
+    padding: 0;
+    list-style: none none;
+}
+body #maincontent .columns.category .sidebar-main .filter-options-item .filter-options-content ol li {
+	margin: 0 0 4px 0;
+}
+body #maincontent .columns.category .sidebar-main .filter-options-item .filter-options-content ol li a {
+	text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: 400 13px/20px 'Helvetica','Arial',sans-serif;
+    text-transform: none;
+    display: inline;
+}
+body #maincontent .columns.category .sidebar-main .filter-options-item .filter-options-content ol li a:hover {
+	text-decoration: underline;
+}
+body #maincontent .columns.category .column.main {
+    width: 79.033%;
+    padding-bottom: 52px;
+    float: right;
+}
+body #maincontent .columns.category .column.main .products.products-grid {
+	margin: 30px 0;
+	margin-bottom: 22px;
+}
+body #maincontent .columns.category .column.main .products.products-grid ol {
+	border-bottom: 1px solid #eee;
+	margin: 0;
+}
+body #maincontent .columns.category .column.main .products.products-grid ol li.product-item {
+	padding: 0;
+	display: inline-block;
+	margin-left: 0;
+    padding-left: 0;
+    width: 23.47%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+}
+body #maincontent .columns.category .column.main .products.products-grid ol li.product-item:nth-child(4n) {
+	margin-right: 0;
+}
+body #maincontent .columns.category .column.main .product-image-container {
+	display: inline-block;
+    max-width: 100%;
+}
+body #maincontent .columns.category .column.main .product-image-wrapper {
+	display: block;
+}
+body #maincontent .columns.category .column.main .product-item-info .product-item-details .product-item-name {
+	font: 700 13px/14px 'Helvetica','Arial',sans-serif;
+}
+body #maincontent .columns.category .column.main .product-item-info .product-item-details .product-item-name .product-item-link {
+	font: 700 13px/14px 'Helvetica','Arial',sans-serif;
+    color: #222;
+    word-wrap: break-word;
+    text-decoration: none;
+    line-height: 18px;
+    display: inline-block;
+}
+body #maincontent .columns.category .column.main .product-item-info .product-item-details .product-item-name .product-item-link:hover {
+	text-decoration: underline;
+}
+
+body #maincontent .columns.category .column.main .product-item-info .product-item-details .price-final_price .price{
+	font: 400 14px/20px 'Helvetica','Arial',sans-serif;
+    color: #183c8e;
+}
+body #maincontent .columns.category .column.main .product-item-info .product-item-details .product-item-inner {
+	display:none;
+}
+body #maincontent .columns.category .column.main .products.products-grid ol li.product-item:hover .product-item-details .product-item-inner{
+	display:block;
+}
+body #maincontent .columns.category .column.main .product-item-info .product-item-details .product-item-inner a {
+	background: #183c8e;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: .5px;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 0 22.4px;
+    text-align: center;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+body #maincontent .columns.category .column.main
+body #maincontent .columns.category .column.main
+body #maincontent .columns.category .column.main
+body #maincontent .columns.category .column.main
+body #maincontent .columns.category .column.main
+body #maincontent .columns.category .column.main

@@ -1,0 +1,205 @@
+/* header */
+body .page-header {
+	text-align: center;
+	margin: 0;
+    padding: 0;
+}
+body .header.panel {
+    position: relative;
+}
+body .minicart-wrapper {
+	width: 20px;
+    position: absolute;
+    right: 0;
+    float: right;
+    display: inline-block;
+    top: 80px;
+}
+body .minicart-wrapper .action.showcart:before {
+	width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background: url(../image/cart@2x.png) no-repeat scroll 0 0;
+    background-size: 20px 20px;
+}
+
+body .page-header .panel.wrapper {
+	border: none;
+	box-shadow: none;
+	background: #fff;
+	height: 51px;
+	border-bottom: 1px solid #eee;
+	display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+body .page-header .panel.header {
+	background: #fff;
+	max-width: 1240px;
+	padding: 6px 0;
+	margin: 0 auto;
+	box-shadow: none;
+	border: none;
+}
+
+body .page-header .panel.header ul {
+	margin: 0;
+	width: 100%;
+	display: inline-block; 
+	vertical-align: top;
+}
+
+body .page-header .panel.header ul li {
+	display: inline-block;
+	padding: 0 65px;
+	margin-top: 10px;
+	text-align: left;
+	float: left;
+	border-right: 1px solid #eee;
+}
+body .page-header .panel.header ul li:last-child{
+	border-right: none;
+}
+
+body .page-header .panel.header ul li:before {
+	width: 20px;
+	height: 18px;
+	display: inline-block;
+	content: "";
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+body .page-header .panel.header ul li.airplane:before {
+	width: 18px;
+	background: url(../image/plane@2x.png) no-repeat scroll 0 0;
+	background-size: 18px auto;
+}
+
+body .page-header .panel.header ul li.freereturn:before {
+	width: 14px;
+	background: url(../image/misc.png) no-repeat scroll 0 -430px;
+}
+
+body .page-header .panel.header ul li.auowned:before {
+	width: 23px;
+	background: url(../image/misc.png) no-repeat scroll -37px -430px;
+}
+
+body .page-header .panel.header ul li.tel:before {
+	width: 21px;
+	background: url(../image/phone@2x.png) no-repeat scroll 0 0;
+	background-size: 21px auto;
+}
+
+body .page-header .panel.header a {
+	text-decoration: none;
+	color: #183c8e;
+	font-weight: 700;
+	font: 700 12px/20px 'Helvetica','Arial',sans-serif;
+}
+
+body .page-header .panel.header a:hover {
+	text-decoration: underline;
+}
+
+body .page-header .panel.header ul li.airplane {
+	padding-left: 0;
+}
+
+body .page-header .panel.header ul li.feefo {
+	padding: 0;
+	margin-top: 0;
+	float: right;
+	height: 38px;
+}
+body .page-header .panel.header ul li.feefo:before {
+	display: none;
+}
+
+body .header.content {
+	width: 100%;
+	max-width: 1240px;
+	display: inline-block;
+	padding: 7.25px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	float: left;
+}
+
+body .block-search {
+	width: 400px;
+	margin: 0 auto;
+	float: none;
+	max-width: 100%;
+	padding-top: 11px;
+	padding-left: 15px;
+}
+
+body .block-search .algolia-search-input {
+	outline: 0;
+	font: normal 13px/23px 'Helvetica', 'Arial', sans-serif;
+	color: #222;
+	letter-spacing: 0;
+	text-transform: none;
+	padding-left: 13px;
+	padding-right: 32px;
+	border: 2px solid #eee;
+	height: 38px;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 100%;
+}
+body .header.panel ul.header.links {
+	margin: 0 41px 0 0;
+    padding-top: 25px;
+    display: inline-block;
+    float: right;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    z-index: 99;
+}
+body .header.panel ul.header.links li.greet.welcome+.authorization-link {
+	display: none;
+}
+body .header.panel ul.header.links li a.logout {
+	color: red;
+	font-weight: bold;
+}
+body .header.panel ul.header.links li {
+	list-style: none;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body .header.panel ul.header.links li a {
+	font: normal 12px/16px 'Helvetica','Arial',sans-serif;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+body .header.panel ul.header.links li a:hover {
+	text-decoration: underline;
+}
+body .searchbox {
+	position: relative;
+}
+body .magnifying-glass {
+    background: url(../image/misc.png) no-repeat scroll 0 -349px;
+    top: 11px;
+    right: 13px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+}

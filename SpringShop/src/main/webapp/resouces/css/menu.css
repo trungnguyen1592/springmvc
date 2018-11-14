@@ -1,0 +1,46 @@
+body .sections.nav-sections {
+	background: #183c8e;
+	min-height: 40px;
+}
+body .sections.nav-sections .section-items.nav-sections-items {
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1240px;
+}
+body .sections.nav-sections .section-items.nav-sections-items .navigation {
+	margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    background: #183c8e;
+}
+body .sections.nav-sections .section-items.nav-sections-items .navigation ul {
+	margin: 0 auto;
+    float: none;
+    display: inline-block;
+}
+body .sections.nav-sections .section-items.nav-sections-items .navigation ul li {
+	float: none;
+    display: inline-block;
+}
+body .sections.nav-sections .section-items.nav-sections-items .navigation ul li a {
+	font: normal 14.5px/28px 'HelveticaBold','Arial',sans-serif;
+	color: #fff;
+    padding: 6.5px 19px 5.5px;
+    background: none;
+    letter-spacing: .5px;
+    text-transform: none;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+body .sections.nav-sections .section-items.nav-sections-items .navigation ul li:hover {
+	background: #fff;
+}
+body .sections.nav-sections .section-items.nav-sections-items .navigation ul li:hover a {
+	color: #183c8e;
+}
+
+
+
+
+

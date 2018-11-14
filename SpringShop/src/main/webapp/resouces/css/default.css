@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+	font-family: 'helvetica';
+	url
+	('../font/helvetica.ttf')
+	format('truetype'), 
+}
+@font-face {
+	font-family: 'GothamBold';
+	url
+	('../font/Gotham-Bold.ttf')
+	format('truetype'), 
+}
+
+body {
+	margin: 0;
+	font: normal 13px/20px 'Helvetica','Arial',sans-serif;
+	color: #183c8e;
+	text-transform: none;
+	letter-spacing: 0;
+}
+body p, body span, body strong, body dl, body dd, body dt, body table tr td, body table tr th, body ul li, body ol li, body legend {
+    color: #222;
+    font: normal 13px/20px 'Helvetica','Arial',sans-serif;
+}
+
+.page-main {
+	overflow: hidden;
+}
+.content {
+	max-width: 1280px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+	margin-top: 15px;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+	color: #222;
+	text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+body h1 {
+	margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+body h1 span {
+	letter-spacing: 1px;
+	font-size: 24px;
+	font: 700 24px/24px 'GothamBold','Arial',sans-serif;
+	color: #222;
+}
+body .breadcrumbs {
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+body .breadcrumbs .items {
+	font-size: 1.2rem;
+    color: #a3a3a3;
+    margin: 0;
+    padding: 0;
+    list-style: none none;
+}
+body .breadcrumbs .items>li {
+	display: inline-block;
+    vertical-align: top;
+    color: #888;
+}
+body .breadcrumbs .items li a {
+	font: normal 11px/20px 'Helvetica','Arial',sans-serif;
+	color: #222;
+	display: inline-block;
+}
+body .breadcrumbs .items li strong {
+	font: normal 11px/20px 'Helvetica','Arial',sans-serif;
+	color: #222;
+}
+body .breadcrumbs ul li.item:not(:last-child):after {
+	content: "/";
+    font: normal 13px/20px 'Helvetica','Arial',sans-serif;
+    color: #888;
+    margin: 0 0px 0 4px;
+}

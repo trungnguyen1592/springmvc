@@ -1,0 +1,121 @@
+#footer .footer_center_links {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background: #f8f8f8;
+}
+
+#footer .footer_center_links .row {
+	margin-left: -25px;
+	margin-right: -25px;
+}
+
+#footer .footer_center_links .row .col-25 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#footer .footer_center_links h3 {
+	margin-top: 0;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 16px;
+	margin-bottom: 16px;
+	letter-spacing: .9px;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+
+#footer .footer_center_links h3+div ul {
+	margin: 0;
+}
+
+#footer .footer_center_links h3+div ul li {
+	list-style: none;
+	margin-bottom: 4px;
+}
+
+#footer .footer_center_links h3+div ul li a {
+	color: #222222;
+	text-decoration: none;
+	display: block;
+}
+
+#footer .footer_center_links h3+div ul li a:hover {
+	text-decoration: underline;
+}
+
+#footer .footer_center_links .our-brands h3+div ul {
+	width: 33.33%;
+	float: left;
+	padding: 0 25px;
+}
+#footer .footer_center_links .our-brands h3+div {
+    margin: 0 -25px;
+}
+body .page-footer .footer_bottom {
+    text-align: center;
+    background: #fff;
+    padding: 20px 0 19px;
+}
+#footer .footer_bottom {
+    text-align: center;
+    padding: 28px 0 27px;
+}
+#footer .footer_bottom .footer_bottom_copyright {
+    display: inline-block;
+}
+#footer .footer_bottom .footer_bottom_copyright p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: .067px;
+    font: normal 13px/20px Arial;
+    color: #555;
+}
+#footer .footer_bottom .footer_bottom_links {
+    display: inline-block;
+}
+#footer .footer_bottom .footer_bottom_links ul {
+    display: inline-block;
+    margin: 0;
+}
+#footer .footer_bottom .footer_bottom_links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+#footer .footer_bottom .footer_bottom_links ul li span {
+    margin: 0 5px 0 3px;
+}
+#footer .footer_bottom .footer_bottom_links ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 12px;
+    line-height: 22px;
+}
+#footer .footer_bottom .footer_bottom_links ul li a:hover {
+    text-decoration: underline;
+}
+#footer .footer_bottom .footer_bottom_links ul li:last-child {
+    margin-left: 16px;
+}
+
+@media ( min-width : 992px) {
+	#footer .footer_center_links .row .col-25.block-md-2 {
+		padding-left: 40px;
+	}
+	#footer .footer_center_links .row .col-25.block-md-11 {
+		padding-right: 17px;
+	}
+	#footer .footer_center_links .our-brands h3+div ul {
+		width: 32.53%;
+	}
+	#footer .footer_center_links .our-brands h3+div ul:last-child {
+		padding-left: 22px;
+	}
+}
+
+@media ( min-width : 768px) {
+	#footer .footer_center_links .block_link h3+div {
+		display: block !important;
+	}
+}

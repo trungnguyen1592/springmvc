@@ -1,0 +1,51 @@
+body .columns.product .product.media {
+	width: 56.452%;
+	float: left;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+body .product-info-main {
+	width: 39.52%;
+	float: right;
+	margin-bottom: 100px;
+}
+
+body .product-info-main .page-title-wrapper h1 span {
+	line-height: 26px;
+	letter-spacing: .5px;
+	font-size: 24px;
+}
+
+body .product-info-main .price {
+	color: #183c8e;
+	font-size: 32px;
+	line-height: 34px;
+	letter-spacing: -.5px;
+	font-weight: 600;
+}
+
+body .box-tocart a {
+	color: #fff;
+	background: #00ac0c;
+	padding: 0 40px;
+	line-height: 50px;
+	height: 50px;
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 48%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+body .box-tocart a:hover {
+	background: #00a40b;
+}
+
+body .product-data ul {
+	margin: 0 0 0 20px;
+}
